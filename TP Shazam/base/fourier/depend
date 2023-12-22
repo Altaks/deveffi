@@ -1,0 +1,4 @@
+dft.o: dft.c dft.h types.h fftw-3.3.10/api/fftw3.h
+fft.o: fft.c fftw-3.3.10/api/fftw3.h fft.h types.h
+main.o: main.c dft.h types.h fftw-3.3.10/api/fftw3.h fft.h time_chrono.h
+time_chrono.o: time_chrono.c time_chrono.h

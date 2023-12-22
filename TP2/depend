@@ -1,0 +1,3 @@
+list_v1.o: list_v1.c list_v1.h
+list_v2.o: list_v2.c list_v2.h
+main.o: main.c list_v1.h list_v2.h
